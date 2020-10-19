@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="webdriver_io_page" timestamp="2020-10-19T18:52:05" time="1.207" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="webdriver.io page"/>
+      <property name="capabilities" value="chrome.86_0_4240_75.windows"/>
+      <property name="file" value=".\test\specs\basic.js"/>
+    </properties>
+    <testcase classname="chrome.86_0_4240_75.windows.webdriver_io_page" name="should_have_the_right_title" time="1.206">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/8ae3ce8650c1e498d4a0b0600591f66c/url - {"url":"https://webdriver.io/"}
+RESULT: {"url":"https://webdriver.io/"}
+COMMAND: GET /session/8ae3ce8650c1e498d4a0b0600591f66c/title - {}
+RESULT: {}
+COMMAND: DELETE /session/8ae3ce8650c1e498d4a0b0600591f66c - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

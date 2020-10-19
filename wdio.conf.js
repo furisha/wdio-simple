@@ -131,7 +131,7 @@ exports.config = {
     reporters: [
         'dot',
         ['junit', {
-            outputDir: './'
+            outputDir: './results/'
         }]
     ],
     
